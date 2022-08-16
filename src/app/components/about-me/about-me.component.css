@@ -1,0 +1,39 @@
+.row{
+    padding: 30px;
+    
+}
+
+div{
+    background-color: #70a5ad;
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+    #ProfilePicture {
+        position: absolute;
+        width: 17%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px;
+        left: 1%;
+        top: 590px;
+    }
+}
+
+@media (max-width: 575px) {
+    #ProfilePicture {
+        margin: 25px;
+        width: 50%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px;
+        left: 1%;
+        top: 600px;
+    }
+}
+
+
+
+#Name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
