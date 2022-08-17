@@ -19,6 +19,17 @@ div{
     }
 }
 
+@media (min-width: 1640px) {
+    #ProfilePicture {
+        position: absolute;
+        width: 280px;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px;
+        left: 1%;
+        top: 590px;
+    }
+}
+
 @media (max-width: 575px) {
     #ProfilePicture {
         margin: 25px;
