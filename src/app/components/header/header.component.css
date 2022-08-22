@@ -2,7 +2,6 @@ div{
     background-color: #70a5ad;
 }
 
-app-social-networks{
-    float: right;
-    margin-top:25px;
+.row {
+    margin: 0%;
 }

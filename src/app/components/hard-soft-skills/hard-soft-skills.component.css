@@ -1,4 +1,9 @@
 .row{
     background-color: #70a5ad;
     padding: 20px;
+    margin: 0%;
+}
+
+h1 {
+    font-family: Impact;
 }

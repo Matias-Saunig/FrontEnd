@@ -1,11 +1,19 @@
 .row{
     padding: 30px;
-    
+    margin: 0%;
 }
 
 div{
     background-color: #70a5ad;
     text-align: center;
+}
+
+#AbaoutMeText {
+    font-family: verdana;
+}
+
+h1 {
+    font-family: Impact;
 }
 
 @media (min-width: 576px) {
@@ -30,6 +38,17 @@ div{
     }
 }
 
+@media (max-width: 991px) {
+    #ProfilePicture {
+        margin: 25px;
+        width: 200px;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px;
+        left: 1%;
+        top: 270px;
+    }
+}
+
 @media (max-width: 575px) {
     #ProfilePicture {
         margin: 25px;
@@ -42,9 +61,15 @@ div{
 }
 
 
-
 #Name {
-    font-weight: bold;
+    
+    font-size: 30px;
+    border: solid 1px black;
+    font-family: Impact;
+}
+
+#Title {
+    font-family: Impact;
     font-size: 20px;
 }
 

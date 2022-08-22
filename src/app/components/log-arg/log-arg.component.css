@@ -1,3 +1,31 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #LogoArg{
     width: 150px;
+}
+
+img{
+    width: 40px;
+    margin: 2px;
+}
+
+button {
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    border-width: medium;
+}
+
+@media (max-width: 575px) {
+    .container {
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    
+    .redes {
+        display: flex;
+    }
 }
