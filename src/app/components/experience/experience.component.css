@@ -7,7 +7,11 @@ div{
     background-color: #70a5ad;
 }
 
-h3, h2 {
+td{
+    border-bottom-width: 0px;
+}
+
+h2 {
     display: inline;
     font-family: verdana;
 }
@@ -16,8 +20,12 @@ h1 {
     font-family: Impact;
 }
 
-p {
-    margin: 15px;
+#Titulo {
+    width: 400px;
+}
+
+#Descripcion {
     font-family: verdana;
+    margin-bottom: 0px;
 }
 
